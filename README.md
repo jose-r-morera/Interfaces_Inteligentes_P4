@@ -11,6 +11,7 @@
 Cuando el cubo colisiona con cualquier araña de tipo 2, las arañas de tipo1 se acercan a un huevo de tipo1. Cuando el cubo toca cualquier araña de tipo 1, las arañas de tipo1 se dirigen a huevos del tipo2. Para cambiar el material de los huevos cuando colisiona una araña se accede al mesh renderer hijo del objeto de la colisión mediante "GetComponentInChildren" y se cambia el material a una copia con otro color. Se siguen unsando eventos y delegados para notificar a las arañas.
 ## 4
 ![Ejercicio4](img/4.gif)  
+Las arañas de tipo1 se teletransportan al huevo verde de la derecha, las de tipo2 miran al huevo gris.
 Se ha desactivado el script de animación de las arañas de tipo2 para que tras ejecutar la instrucción lookAt no cambien su rotación. Para el teletransporte se emplea el método translate acortando la distancia de movimiento una cantidad variable respecto al objetivo para que las arañas no se solapen dentro del huevo.
 7. d
 8. e
