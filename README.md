@@ -27,7 +27,7 @@ La recompensa se implementa mediante una imagen de UI en forma de estrella. Se c
 
  ## 8
 ![Ejercicio8](img/8.gif)
-El prototipo consiste en un escenario en el que los zombies persiguen al personaje hasta que consigue la estrella, momento en el que se quedan quietos 5 segundos.
+El prototipo consiste en un escenario en el que los zombies persiguen al personaje hasta que consigue el rayo, momento en el que se quedan quietos. Los zombies son notificados usando el patrón observer (eventos y método delegado).
 
 ## 9
 ![Ejercicio9](img/9.gif)
